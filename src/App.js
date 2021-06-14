@@ -1,9 +1,12 @@
 import React from "react"
+import Header from "./components/Header"
+import Nav from "./components/Nav"
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Nav />
+      <Header />
     </div>
   )
 }
