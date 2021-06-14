@@ -2,7 +2,7 @@ export default {
   nav: {
     logo: "Isiah Jones",
     links: [
-      { text: "Work", to: "mywork" },
+      { text: "Projects", to: "myprojects" },
       { text: "Contact", to: "mycontact" },
       { text: "Resume", to: "myresume" },
     ],
