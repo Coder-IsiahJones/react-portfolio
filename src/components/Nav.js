@@ -12,7 +12,11 @@ const Nav = () => {
         <div>
           {content.nav.links.map((link, index) => {
             return (
-              <span className='text-xl mr-4'>{"< " + link.text + " />"}</span>
+              <span className='text-xl mr-4'>
+                <span style={{ color: "#04D5FD" }}>{"< "}</span>
+                {link.text}
+                <span style={{ color: "#04D5FD" }}>{" />"}</span>
+              </span>
             )
           })}
         </div>
