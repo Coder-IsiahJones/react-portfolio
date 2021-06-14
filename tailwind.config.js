@@ -678,6 +678,7 @@ module.exports = {
       500: "500ms",
       700: "700ms",
       1000: "1000ms",
+      2000: "2000ms",
     },
     transitionDelay: {
       75: "75ms",
@@ -724,7 +725,7 @@ module.exports = {
           animationTimingFunction: "ease-in-out",
         },
         "50%": {
-          transform: "translateY(-20px)",
+          transform: "translateY(-10px)",
           animationTimingFunction: "ease-in-out",
         },
         "100%": {
@@ -734,15 +735,15 @@ module.exports = {
       },
       refloat: {
         "0%": {
-          transform: "translateY(-20px)",
+          transform: "translateY(-10px)",
           animationTimingFunction: "ease-in-out",
         },
         "50%": {
-          transform: "translateY(20px)",
+          transform: "translateY(10px)",
           animationTimingFunction: "ease-in-out",
         },
         "100%": {
-          transform: "translateY(-20px)",
+          transform: "translateY(-10px)",
           animationTimingFunction: "ease-in-out",
         },
       },
