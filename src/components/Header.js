@@ -45,12 +45,14 @@ const Header = () => {
             className={`${
               animated ? "" : "translate-y-10 opacity-0"
             } transform transition duration-2000 ease-in-outfont-bold text-2xl text-gray-500`}>
+            <span style={{ color: "#04D5FD" }}>{"< "}</span>
             {content.header.text[2]}{" "}
             <Typical
               steps={content.header.typical}
               loop={Infinity}
               className='inline-block'
             />
+            <span style={{ color: "#04D5FD" }}>{" />"}</span>
           </h1>
 
           <ScrollLink to='stack' smooth={true}>
