@@ -4,7 +4,9 @@ import { LazyLoadImage } from "react-lazy-load-image-component"
 
 const Stack = () => {
   return (
-    <div className='min-h-screen flex flex-col items-center justify-center font-dosis'>
+    <div
+      className='min-h-screen flex flex-col items-center justify-center font-dosis'
+      id='stack'>
       <h1 className='text-5xl font-bold'>Tech Stack</h1>
 
       <div className='flex flex-wrap justify-center mt-10'>
