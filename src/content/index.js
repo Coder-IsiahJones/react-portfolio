@@ -26,16 +26,36 @@ export default {
     title: "Stack",
     tech: [
       {
-        img: process.env.PUBLIC_URL + "/assets/mongo.png",
-        alt: "mongodb",
+        img: process.env.PUBLIC_URL + "/assets/net-logo.png",
+        alt: ".Net",
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/c-logo.png",
+        alt: "c#",
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/sql-logo.svg",
+        alt: "sql",
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/html-logo.png",
+        alt: "html5",
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/javascript-logo.png",
+        alt: "html5",
       },
       {
         img: process.env.PUBLIC_URL + "/logo512.png",
         alt: "react",
       },
       {
-        img: process.env.PUBLIC_URL + "/assets/express.png",
-        alt: "express",
+        img: process.env.PUBLIC_URL + "/assets/firebase-logo.png",
+        alt: "firebase",
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/tailwind-logo.png",
+        alt: "tailwind css",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/node.png",
