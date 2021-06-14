@@ -11,7 +11,9 @@ const Nav = () => {
         <h1 className='text-3xl font-bold'>{content.nav.logo}</h1>
         <div>
           {content.nav.links.map((link, index) => {
-            return <span className='text-xl mr-4'>{link.text}</span>
+            return (
+              <span className='text-xl mr-4'>{"< " + link.text + " />"}</span>
+            )
           })}
         </div>
       </div>
