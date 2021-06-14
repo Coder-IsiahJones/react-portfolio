@@ -8,7 +8,8 @@ const Project = () => {
       style={{
         background: "#EEEEEE",
       }}
-      className='p-5'>
+      className='p-5'
+      data-aos='fade-right'>
       {/* Title */}
       <div className='flex flex-col items-center justify-center font-dosis'>
         <h1 className='text-5xl font-bold'>Projects</h1>
@@ -22,7 +23,9 @@ const Project = () => {
           <div className='grid mt-8  gap-8 grid-cols-1 md:grid-cols-2  xl:grid-cols-3'>
             {content.project.projects.map((projects, index) => {
               return (
-                <div className='flex flex-col'>
+                <div
+                  data-aos={`${index % 2 === 0 ? "fade-down" : "fade-up"}`}
+                  className='flex flex-col'>
                   <div className='bg-white shadow-md  rounded-3xl p-4'>
                     <div className='flex-none lg:none'>
                       <div className=' h-full w-full  lg:mb-0 mb-3 '>

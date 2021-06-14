@@ -20,7 +20,7 @@ const Header = () => {
       }}>
       <div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
         {/* Header Image */}
-        <div className='w-full md:w-2/5'>
+        <div className='w-full md:w-2/5' data-aos='fade-up'>
           <LazyLoadImage
             src={content.header.img}
             effect='blur'
@@ -29,7 +29,9 @@ const Header = () => {
         </div>
 
         {/* Header Title Section */}
-        <div className='text-white font-dosis text-center md:text-left'>
+        <div
+          className='text-white font-dosis text-center md:text-left'
+          data-aos='fade-up'>
           {/* Title */}
           <h2
             className={`${

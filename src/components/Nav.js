@@ -8,8 +8,10 @@ const Nav = () => {
         background: "#091c29",
       }}>
       <div className='flex items-center justify-between w-10/12 mx-auto py-3 text-white font-dosis'>
-        <h1 className='text-3xl font-bold'>{content.nav.logo}</h1>
-        <div>
+        <h1 className='text-3xl font-bold' data-aos='fade-right'>
+          {content.nav.logo}
+        </h1>
+        <div data-aos='fade-down'>
           {content.nav.links.map((link, index) => {
             return (
               <span className='text-xl mr-4'>
