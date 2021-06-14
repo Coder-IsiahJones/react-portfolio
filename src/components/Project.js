@@ -19,13 +19,13 @@ const Project = () => {
       {/* Card */}
       <div>
         <div className='content'>
-          <div className='grid mt-8  gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
+          <div className='grid mt-8  gap-8 grid-cols-1 md:grid-cols-2  xl:grid-cols-3'>
             {content.project.projects.map((projects, index) => {
               return (
                 <div className='flex flex-col'>
                   <div className='bg-white shadow-md  rounded-3xl p-4'>
-                    <div className='flex-none lg:flex'>
-                      <div className=' h-full w-full lg:h-48 lg:w-48   lg:mb-0 mb-3 object-contain'>
+                    <div className='flex-none lg:none'>
+                      <div className=' h-full w-full  lg:mb-0 mb-3 '>
                         <LazyLoadImage
                           src={projects.img}
                           alt={projects.title}
@@ -37,7 +37,7 @@ const Project = () => {
                           <div className='w-full flex-none text-xs text-blue-700 font-medium '>
                             {projects.job}
                           </div>
-                          <h2 className='flex-auto text-lg font-medium line-clamp-1'>
+                          <h2 className='flex-auto text-lg font-medium'>
                             {projects.title}
                           </h2>
                         </div>
