@@ -1,10 +1,16 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import content from "../content"
 import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css"
 import Typical from "react-typical"
 
 const Header = () => {
+  const [animated, setAnimated] = useState(false)
+
+  useEffect(() => {
+    setAnimated(true)
+  }, [])
+
   return (
     <div
       className='min-h-screen flex items-center justify-center'
@@ -24,14 +30,20 @@ const Header = () => {
         {/* Header Title Section */}
         <div className='text-white font-dosis text-center md:text-left'>
           {/* Title */}
-          <h2 className='text-3x md:text-5xl font-bold '>
+          <h2
+            className={`${
+              animated ? "" : "translate-y-10 opacity-0"
+            } transform transition duration-2000 ease-in-out text-3x md:text-5xl font-bold `}>
             {content.header.text[0]}
             <br />
             {content.header.text[1]}
           </h2>
 
           {/* Title Animation */}
-          <h1 className='font-bold text-2xl text-gray-500'>
+          <h1
+            className={`${
+              animated ? "" : "translate-y-10 opacity-0"
+            } transform transition duration-2000 ease-in-outfont-bold text-2xl text-gray-500`}>
             {content.header.text[2]}{" "}
             <Typical
               steps={content.header.typical}
