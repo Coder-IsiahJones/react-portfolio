@@ -7,8 +7,9 @@ const Nav = () => {
     <div
       style={{
         background: "#091c29",
-      }}>
-      <div className='flex items-center justify-between w-10/12 mx-auto py-3 text-white font-dosis'>
+      }}
+      className='font-dosis fixed top-0 w-screen z-40'>
+      <div className='flex items-center justify-between w-10/12 mx-auto py-3 text-white '>
         <h1 className='text-3xl font-bold' data-aos='fade-right'>
           {content.nav.logo}
         </h1>
