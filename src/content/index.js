@@ -32,7 +32,7 @@ export default {
       "SneakerHead.",
       2000,
     ],
-    btnText: "Contact Me",
+    btnText: "Hire Me",
   },
 
   stack: {
