@@ -62,9 +62,9 @@ const Header = () => {
             <span style={{ color: "#04D5FD" }}>{" </div>"}</span>
           </h1>
 
-          <ScrollLink to='stack' smooth={true}>
+          <ScrollLink to='contact' smooth={true}>
             {/* Button */}
-            <button className='animate-float bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg'>
+            <button className='animate-float bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg  focus:outline-none'>
               {content.header.btnText}
             </button>
           </ScrollLink>
