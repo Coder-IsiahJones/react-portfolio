@@ -1,5 +1,6 @@
 import React from "react"
 import content from "../content"
+import { Link as ScrollLink } from "react-scroll"
 
 const Nav = () => {
   return (
@@ -14,11 +15,15 @@ const Nav = () => {
         <div data-aos='fade-down'>
           {content.nav.links.map((link, index) => {
             return (
-              <span className='text-xl mr-4'>
-                <span style={{ color: "#04D5FD" }}>{"< "}</span>
-                {link.text}
-                <span style={{ color: "#04D5FD" }}>{" />"}</span>
-              </span>
+              <ScrollLink to={link.to} smooth={true}>
+                <button className=' focus:outline-none '>
+                  <span className='text-xl mr-4'>
+                    <span style={{ color: "#04D5FD" }}>{"< "}</span>
+                    {link.text}
+                    <span style={{ color: "#04D5FD" }}>{" />"}</span>
+                  </span>
+                </button>
+              </ScrollLink>
             )
           })}
         </div>
