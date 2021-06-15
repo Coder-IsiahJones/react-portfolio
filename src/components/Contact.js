@@ -8,7 +8,7 @@ import ContactForm from "./ContactForm"
 export default function Contact() {
   return (
     <div
-      className=' min-h-screen  flex justify-center items-center'
+      className=' min-h-screen  flex justify-center items-center '
       id='mycontact'>
       <div
         style={{
@@ -19,11 +19,10 @@ export default function Contact() {
         className='w-full md:w-4/5 md:rounded-xl shadow-2xl flex md:flex-row flex-col-reverse justify-around items-center'>
         <LazyLoadImage
           effect='blur'
-          src={content.contact.img}
-          placeholderSrc={content.contact.imgPlaceholder}
+          src={process.env.PUBLIC_URL + "/assets/call.png"}
           alt='profile'
           width='300px'
-          className='mt-10 mx-auto'
+          className='mt-10 mx-auto rounded-xl'
         />
 
         <div className='font-dosis w-4/5 md:w-2/5 mt-5 '>
