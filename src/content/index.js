@@ -100,7 +100,7 @@ export default {
         location: "Franklin, IN",
         date: "05/15/2020",
         code: "Asp.net",
-        website: "https://www.leadershipjohnsoncounty.org/",
+        website: "https://computing.franklincollege.edu/2020LJCDT/",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/giordanos.png",
