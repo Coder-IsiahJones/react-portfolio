@@ -9,7 +9,8 @@ const Project = () => {
         background: "#EEEEEE",
       }}
       className='p-5'
-      data-aos='fade-right'>
+      data-aos='fade-right'
+      id='myprojects'>
       {/* Title */}
       <div className='flex flex-col items-center justify-center font-dosis'>
         <h1 className='text-5xl font-bold'>Projects</h1>
@@ -104,12 +105,14 @@ const Project = () => {
                               <span>{projects.code}</span>
                             </button>
                           </div>
-                          <button
-                            className='mb-2 md:mb-0 bg-gray-900 px-5 py-2 shadow-sm tracking-wider text-white rounded-full hover:bg-gray-800'
-                            type='button'
-                            aria-label='like'>
-                            Website
-                          </button>
+                          <a href={projects.website}>
+                            <button
+                              className='mb-2 md:mb-0 bg-gray-900 px-5 py-2 shadow-sm tracking-wider text-white rounded-full hover:bg-gray-800'
+                              type='button'
+                              aria-label='like'>
+                              Website
+                            </button>
+                          </a>
                         </div>
                       </div>
                     </div>
