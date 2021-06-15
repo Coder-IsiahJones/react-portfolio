@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import content from "../content"
-import { LazyLoadImage } from "react-lazy-load-image-component"
+// import { LazyLoadImage } from "react-lazy-load-image-component"
 import "react-lazy-load-image-component/src/effects/blur.css"
 import Typical from "react-typical"
 import { Link as ScrollLink } from "react-scroll"
