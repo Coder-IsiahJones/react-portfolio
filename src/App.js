@@ -5,6 +5,7 @@ import Stack from "./components/Stack"
 import Project from "./components/Project"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Contact from "./components/Contact"
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Stack />
       <Project />
+      <Contact />
     </div>
   )
 }
