@@ -88,7 +88,7 @@ export default {
         alt: "node",
       },
     ],
-    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+    desc: `I specialize in many different technologies that will bring your ideas to life. My arsenal is always growing so if you don't see your favorite tech stack above don't worry. Building your company's website that is also mobile-friendly is my goal for you. Don't be overwhelmed by all the technical lingo. I will break things down into small chunks and deliver simplified information that you can digest to get your company to the next level with the ever-changing technology innovations`,
   },
 
   project: {
