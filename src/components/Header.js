@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <div
-      className='min-h-screen flex items-center justify-center'
+      className='min-h-screen flex items-center justify-center overflow-hidden'
       style={{
         background: "#091c29",
       }}>
@@ -25,7 +25,9 @@ const Header = () => {
         </div>
 
         {/* Header Title Section */}
-        <div className='text-white font-dosis text-center md:text-left w-screen'>
+        <div
+          className='text-white font-dosis text-center md:text-left sm:text-left '
+          style={{ width: "700px", height: "500px" }}>
           {/* Title */}
           <h2
             className={`${
