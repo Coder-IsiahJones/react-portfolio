@@ -14,9 +14,10 @@ const Header = () => {
 
   return (
     <div
-      className='min-h-screen flex items-center justify-center overflow-hidden'
+      className='pt-20 overflow-hidden'
       style={{
         background: "#091c29",
+        height: "calc(684px - 80px)",
       }}>
       <div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
         {/* Header Image */}
@@ -66,7 +67,7 @@ const Header = () => {
 
           <ScrollLink to='mycontact' smooth={true}>
             {/* Button */}
-            <button className='animate-float bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg  focus:outline-none'>
+            <button className='font-bold animate-float bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg  focus:outline-none'>
               {content.header.btnText}
             </button>
           </ScrollLink>
