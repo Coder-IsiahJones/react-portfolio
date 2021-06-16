@@ -17,7 +17,7 @@ const Header = () => {
       className='pt-20 overflow-hidden'
       style={{
         background: "#091c29",
-        height: "calc(684px - 80px)",
+        height: "calc(788px - 80px)",
       }}>
       <div className='w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between'>
         {/* Header Image */}
@@ -27,7 +27,7 @@ const Header = () => {
 
         {/* Header Title Section */}
         <div
-          className='text-white font-dosis text-left  '
+          className='text-white font-dosis text-left  w-11/12			'
           style={{ height: "100px" }}>
           {/* Title */}
           <h2
