@@ -163,7 +163,7 @@ export default {
         location: "Fort Wayne, IN",
         date: "06/14/2021",
         code: "React",
-        website: "https://amazon-clone-next-js-lilac.vercel.app",
+        website: "https://amazon-clone-next-js-henna.vercel.app",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/trvl.png",
