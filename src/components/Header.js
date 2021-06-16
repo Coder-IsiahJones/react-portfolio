@@ -27,7 +27,7 @@ const Header = () => {
 
         {/* Header Title Section */}
         <div
-          className='text-white font-dosis text-center md:text-left sm:text-left '
+          className='text-white font-dosis text-left  '
           style={{ height: "100px" }}>
           {/* Title */}
           <h2
