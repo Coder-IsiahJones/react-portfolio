@@ -25,7 +25,7 @@ const Header = () => {
         </div>
 
         {/* Header Title Section */}
-        <div className='text-white font-dosis text-center md:text-left'>
+        <div className='text-white font-dosis text-center md:text-left w-screen'>
           {/* Title */}
           <h2
             className={`${
@@ -49,7 +49,7 @@ const Header = () => {
             </div>
 
             {/*  */}
-            <div className='pl-6'>
+            <div className='pl-6 '>
               <span style={{ color: "#04D5FD" }}>{"<p> "}</span>{" "}
               <Typical
                 steps={content.header.typical}
