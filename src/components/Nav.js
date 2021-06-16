@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import content from "../content"
 import { Link as ScrollLink } from "react-scroll"
 import "./Nav.css"
