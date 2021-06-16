@@ -1,35 +1,63 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import content from "../content"
 import { Link as ScrollLink } from "react-scroll"
+import "./Nav.css"
 
-const Nav = () => {
+function Nav() {
+  const [click, setClick] = useState(false)
+  const handleClick = () => setClick(!click)
+  const closeMobileMenu = () => setClick(false)
+
   return (
-    <div
-      style={{
-        background: "#091c29",
-      }}
-      className='font-dosis fixed top-0 w-screen z-40'>
-      <div className='flex items-center justify-between w-10/12 mx-auto py-3 text-white '>
-        <h1 className='text-3xl font-bold' data-aos='fade-right'>
-          {content.nav.logo}
-        </h1>
-        <div data-aos='fade-down'>
-          {content.nav.links.map((link, index) => {
-            return (
-              <ScrollLink to={link.to} smooth={true}>
-                <button className=' focus:outline-none '>
-                  <span className='text-xl mr-4'>
-                    <span style={{ color: "#04D5FD" }}>{"< "}</span>
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <h1 className='navbar-logo' onClick={closeMobileMenu}>
+            {content.nav.logo}
+          </h1>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
+          </div>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            {content.nav.links.map((link, index) => {
+              return (
+                <li className='nav-item'>
+                  <ScrollLink
+                    to={link.to}
+                    smooth={true}
+                    className='nav-links'
+                    onClick={closeMobileMenu}>
+                    <span className='pr-1' style={{ color: "#04D5FD" }}>
+                      {"<"}
+                    </span>
                     {link.text}
-                    <span style={{ color: "#04D5FD" }}>{" />"}</span>
-                  </span>
-                </button>
-              </ScrollLink>
-            )
-          })}
+                    <span className='pl-1' style={{ color: "#04D5FD" }}>
+                      {"/>"}
+                    </span>
+                  </ScrollLink>
+                </li>
+              )
+            })}
+
+            <li className='nav-item'>
+              <a
+                href={"https://github.com/Coder-IsiahJones"}
+                smooth={true}
+                className='nav-links'
+                onClick={closeMobileMenu}>
+                <span className='pr-1' style={{ color: "#04D5FD" }}>
+                  {"<"}
+                </span>
+                Github
+                <span className='pl-1' style={{ color: "#04D5FD" }}>
+                  {"/>"}
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
+      </nav>
+    </>
   )
 }
 
