@@ -166,6 +166,15 @@ export default {
         website: "https://amazon-clone-next-js-two.vercel.app/",
       },
       {
+        img: process.env.PUBLIC_URL + "/assets/Projects/google-clone.png",
+        job: "Next.js w/TailwindCSS Project  Demo",
+        title: "Google Clone",
+        location: "Fort Wayne, IN",
+        date: "06/23/2021",
+        code: "React",
+        website: "    https://google-search-clone-chi.vercel.app",
+      },
+      {
         img: process.env.PUBLIC_URL + "/assets/Projects/trvl.png",
         job: "React Project",
         title: "TRVL",
