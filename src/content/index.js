@@ -4,7 +4,7 @@ export default {
     links: [
       { text: "Projects", to: "myprojects" },
       { text: "Contact", to: "mycontact" },
-      { text: "Resume", to: "myresume" },
+      // { text: "Resume", to: "myresume" },
     ],
   },
   header: {
