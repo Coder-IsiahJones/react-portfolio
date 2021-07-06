@@ -103,6 +103,15 @@ export default {
         website: "https://computing.franklincollege.edu/2020LJCDT/",
       },
       {
+        img: process.env.PUBLIC_URL + "/assets/Projects/wildfire-tracker.png",
+        job: "React Project Demo",
+        title: "Wildfire Tracker",
+        location: "Fort Wayne, IN",
+        date: "07/06/2021",
+        code: "React",
+        website: "https://wildfire-tracker-blush.vercel.app/",
+      },
+      {
         img: process.env.PUBLIC_URL + "/assets/Projects/giordanos.png",
         job: "React Project  Demo",
         title: "Giordanos",
