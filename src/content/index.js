@@ -1,9 +1,14 @@
 export default {
   nav: {
     logo: "Isiah Jones",
-    links: [
-      { text: "Projects", to: "myprojects" },
-      { text: "Contact", to: "mycontact" },
+    links: [{
+        text: "Projects",
+        to: "myprojects"
+      },
+      {
+        text: "Contact",
+        to: "mycontact"
+      },
       // { text: "Resume", to: "myresume" },
     ],
   },
@@ -35,8 +40,7 @@ export default {
 
   contact: {
     title: "Contact Me!",
-    socials: [
-      {
+    socials: [{
         alt: "github",
         img: process.env.PUBLIC_URL + "/assets/github.png",
       },
@@ -50,8 +54,7 @@ export default {
 
   stack: {
     title: "Stack",
-    tech: [
-      {
+    tech: [{
         img: process.env.PUBLIC_URL + "/assets/net-logo.png",
         alt: ".Net",
       },
@@ -92,8 +95,7 @@ export default {
   },
 
   project: {
-    projects: [
-      {
+    projects: [{
         img: process.env.PUBLIC_URL + "/assets/Projects/LJCDT.png",
         job: "Senior Project",
         title: "Leadership Johnson County Driving Tour",
@@ -146,6 +148,15 @@ export default {
         date: "05/20/2021",
         code: "React",
         website: "https://webull-react-demo.netlify.app/",
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/mortagecalc.png",
+        job: "Website Project",
+        title: "Mortgage Calculator",
+        location: "Fort Wayne, IN",
+        date: "07/11/2021",
+        code: ".Net, C#, MVC",
+        website: "https://mortagecalcmvc.herokuapp.com/Home/App",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/disney.png",
@@ -220,8 +231,7 @@ export default {
         website: "",
       },
       {
-        img:
-          process.env.PUBLIC_URL + "/assets/Projects/sneakerinventory2.0.png",
+        img: process.env.PUBLIC_URL + "/assets/Projects/sneakerinventory2.0.png",
         job: "Personal Project",
         title: "Sneaker Inventory 2.0",
         location: "Fort Wayne, IN",
@@ -230,8 +240,7 @@ export default {
         website: "",
       },
       {
-        img:
-          process.env.PUBLIC_URL + "/assets/Projects/travel-landing-page.png",
+        img: process.env.PUBLIC_URL + "/assets/Projects/travel-landing-page.png",
         job: "Landing Page Project",
         title: "Never Stop Exploring",
         location: "Fort Wayne, IN",
@@ -246,8 +255,7 @@ export default {
         location: "Fort Wayne, IN",
         date: "04/12/2021",
         code: "HTML, CSS, Javascript",
-        website:
-          "http://coder-isiah-projects.42web.io/Social%20Media%20Dashboard/",
+        website: "http://coder-isiah-projects.42web.io/Social%20Media%20Dashboard/",
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/podcast.png",
