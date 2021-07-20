@@ -101,8 +101,9 @@ export default {
         title: "Leadership Johnson County Driving Tour",
         location: "Franklin, IN",
         date: "05/15/2020",
-        code: "Asp.net",
+        code: ".Net, C#, MVC",
         website: "https://computing.franklincollege.edu/2020LJCDT/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/wildfire-tracker.png",
@@ -112,6 +113,7 @@ export default {
         date: "07/06/2021",
         code: "React",
         website: "https://wildfire-tracker-blush.vercel.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/giordanos.png",
@@ -121,6 +123,7 @@ export default {
         date: "05/20/2021",
         code: "React",
         website: "https://giordanos-react-demo.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/real-estate.png",
@@ -130,6 +133,7 @@ export default {
         date: "05/20/2021",
         code: "React",
         website: "https://project-real-estate-demo.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/animation.png",
@@ -139,6 +143,7 @@ export default {
         date: "05/20/2021",
         code: "React",
         website: "https://animation-react-demo.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/webull.png",
@@ -148,15 +153,7 @@ export default {
         date: "05/20/2021",
         code: "React",
         website: "https://webull-react-demo.netlify.app/",
-      },
-      {
-        img: process.env.PUBLIC_URL + "/assets/Projects/mortagecalc.png",
-        job: "Website Project",
-        title: "Mortgage Calculator",
-        location: "Fort Wayne, IN",
-        date: "07/11/2021",
-        code: ".Net, C#, MVC",
-        website: "https://mortagecalcmvc.herokuapp.com/Home/App",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/disney.png",
@@ -166,6 +163,7 @@ export default {
         date: "05/28/2021",
         code: "React",
         website: "https://disneyplus-clone-a9549.web.app",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/gmail.png",
@@ -175,6 +173,7 @@ export default {
         date: "06/01/2021",
         code: "React",
         website: "https://react-clone-8680e.web.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/amazon.png",
@@ -184,6 +183,7 @@ export default {
         date: "06/14/2021",
         code: "React",
         website: "https://amazon-clone-next-js-two.vercel.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/google-clone.png",
@@ -193,6 +193,7 @@ export default {
         date: "06/23/2021",
         code: "React",
         website: "    https://google-search-clone-chi.vercel.app",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/trvl.png",
@@ -202,6 +203,7 @@ export default {
         date: "05/05/2021",
         code: "React",
         website: "https://trvlreact.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/Rocky.png",
@@ -209,8 +211,8 @@ export default {
         title: "Rocky Landscaping",
         location: "Fort Wayne, IN",
         date: "02/09/2020",
-        code: "Asp.net",
-        website: "",
+        code: ".Net, MVC, C#",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/inventory.png",
@@ -218,8 +220,9 @@ export default {
         title: "Sneaker AIO",
         location: "Fort Wayne, IN",
         date: "Current",
-        code: ".Net",
-        website: "",
+        code: ".Net, C#, MVC",
+        website: "https://github.com/Coder-IsiahJones/SneakerAIO",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/netcore.png",
@@ -227,8 +230,9 @@ export default {
         title: "SportsPlay",
         location: "Franklin, IN",
         date: "05/20/2020",
-        code: ".Net",
-        website: "",
+        code: ".Net, C#, MVC",
+        website: "https://github.com/Coder-IsiahJones/SportsPlay",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/sneakerinventory2.0.png",
@@ -236,8 +240,8 @@ export default {
         title: "Sneaker Inventory 2.0",
         location: "Fort Wayne, IN",
         date: "09/01/2019",
-        code: "Asp.Net",
-        website: "",
+        code: ".Net, C#, MVC",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/travel-landing-page.png",
@@ -247,6 +251,7 @@ export default {
         date: "04/25/2021",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Travel-Landing-Page/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/social.png",
@@ -256,6 +261,7 @@ export default {
         date: "04/12/2021",
         code: "HTML, CSS, Javascript",
         website: "http://coder-isiah-projects.42web.io/Social%20Media%20Dashboard/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/podcast.png",
@@ -265,6 +271,7 @@ export default {
         date: "04/11/2021",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Podcast-Landing-Page/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/timer.png",
@@ -274,6 +281,7 @@ export default {
         date: "04/09/2021",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Launch-Countdown-Timer/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/particlesystem.png",
@@ -281,8 +289,9 @@ export default {
         title: "Particle System",
         location: "Fort Wayne, IN",
         date: "04/02/2021",
-        code: "Javascript",
+        code: "Three.js",
         website: "https://particlesystem.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/3dterrain.png",
@@ -290,8 +299,9 @@ export default {
         title: "3D Terrain",
         location: "Fort Wayne, IN",
         date: "03/02/2021",
-        code: "Javascript",
+        code: "Three.js",
         website: "https://3dterraindemo.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/feelthesphere.png",
@@ -299,8 +309,9 @@ export default {
         title: "Feel the Sphere",
         location: "Fort Wayne, IN",
         date: "03/16/2021",
-        code: "Javascript",
+        code: "Three.js",
         website: "https://feelthesphere.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/hauntedhouse.png",
@@ -308,8 +319,9 @@ export default {
         title: "Haunted House",
         location: "Fort Wayne, IN",
         date: "03/05/2021",
-        code: "Javascript",
+        code: "Three.js",
         website: "https://hauntedhousedemo.netlify.app/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/car.png",
@@ -319,6 +331,7 @@ export default {
         date: "09/16/2020",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Car-Website/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/musician.png",
@@ -328,6 +341,7 @@ export default {
         date: "08/11/2019",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Modern-Web-Design/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/sneaker.png",
@@ -337,6 +351,7 @@ export default {
         date: "11/20/2019",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Masonry/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/26andfour.png",
@@ -346,6 +361,7 @@ export default {
         date: "05/29/2019",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/26andfour/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/colmar.png",
@@ -355,6 +371,7 @@ export default {
         date: "05/17/2019",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Colmar-Academy/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
       },
       {
         img: process.env.PUBLIC_URL + "/assets/Projects/book.png",
@@ -364,6 +381,67 @@ export default {
         date: "06/26/2019",
         code: "HTML, CSS, Javascript",
         website: "https://coder-isiahjones.github.io/Project02-Book-/",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/address-book.png",
+        job: "Coding Challenge",
+        title: "Address Book",
+        location: "Fort Wayne, IN",
+        date: "07/20/2021",
+        code: ".Net, MVC, C#, Bootstrap",
+        website: "https://addressbookmvcdemo.herokuapp.com",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/mortagecalc.png",
+        job: "Website Project",
+        title: "Mortgage Calculator",
+        location: "Fort Wayne, IN",
+        date: "07/11/2021",
+        code: ".Net, C#, MVC",
+        website: "https://mortagecalcmvc.herokuapp.com/Home/App",
+        class:'w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl',
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/fizzbuzz.png",
+        job: "Coding Challenge",
+        title: "FizzBuzz",
+        location: "Fort Wayne, IN",
+        date: "07/20/2021",
+        code: ".Net, MVC, C#, Bootstrap",
+        website: " https://fizzbuzz-javascript-challenge.netlify.app",
+        class:'w-full object-contain lg:h-48 rounded-2xl'
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/taco-cat.png",
+        job: "Coding Challenge",
+        title: "Taco Cat",
+        location: "Fort Wayne, IN",
+        date: "07/20/2021",
+        code: ".Net, MVC, C#, Bootstrap",
+        website: " https://taco-cat-javascript-challenge.netlify.app",
+        class:'w-full object-contain lg:h-48 rounded-2xl'
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/zero_to_100.svg",
+        job: "Coding Challenge",
+        title: "Zero To 100",
+        location: "Fort Wayne, IN",
+        date: "07/20/2021",
+        code: ".Net, MVC, C#, Bootstrap",
+        website: " https://zero-to-100-javascript-challenge.netlify.app",
+        class:'w-full object-contain lg:h-48 rounded-2xl'
+      },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/rewind.png",
+        job: "Coding Challenge",
+        title: "Rewind",
+        location: "Fort Wayne, IN",
+        date: "07/20/2021",
+        code: ".Net, MVC, C#, Bootstrap",
+        website: " https://rewind-javascript-challenge.netlify.app",
+        class:'w-full object-contain lg:h-48 rounded-2xl',
       },
     ],
   },

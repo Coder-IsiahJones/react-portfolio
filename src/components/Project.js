@@ -33,7 +33,7 @@ const Project = () => {
                         <LazyLoadImage
                           src={projects.img}
                           alt={projects.title}
-                          className=' w-full  object-scale-down lg:object-cover  lg:h-48 rounded-2xl'
+                          className={projects.class}
                         />
                       </div>
                       <div className='flex-auto ml-3 justify-evenly py-2'>
