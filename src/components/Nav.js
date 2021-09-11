@@ -42,6 +42,8 @@ function Nav() {
             <li className='nav-item'>
               <a
                 href={"https://github.com/Coder-IsiahJones"}
+                target="_blank" 
+                rel="noopener noreferrer"
                 smooth={true}
                 className='nav-links'
                 onClick={closeMobileMenu}>
@@ -49,6 +51,24 @@ function Nav() {
                   {"<"}
                 </span>
                 Github
+                <span className='pl-1' style={{ color: "#04D5FD" }}>
+                  {"/>"}
+                </span>
+              </a>
+            </li>
+
+            <li className='nav-item'>
+              <a
+                href={"https://www.linkedin.com/in/isiah-jones"} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                smooth={true}
+                className='nav-links'
+                onClick={closeMobileMenu}>
+                <span className='pr-1' style={{ color: "#04D5FD" }}>
+                  {"<"}
+                </span>
+                Linkedin
                 <span className='pl-1' style={{ color: "#04D5FD" }}>
                   {"/>"}
                 </span>

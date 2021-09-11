@@ -19,10 +19,10 @@ export default function Contact() {
         className='w-full md:w-4/5 md:rounded-xl shadow-2xl flex md:flex-row flex-col-reverse justify-around items-center'>
         <LazyLoadImage
           effect='blur'
-          src={process.env.PUBLIC_URL + "/assets/call.png"}
+          src={process.env.PUBLIC_URL + "/assets/isiahjones.jpg"}
           alt='profile'
-          width='300px'
-          className='mt-10 mx-auto rounded-xl'
+          width='320px'
+          className='mt-10 mb-10 mx-auto rounded-xl'
         />
 
         <div className='font-dosis w-4/5 md:w-2/5 mt-5 '>
