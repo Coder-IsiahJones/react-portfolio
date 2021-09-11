@@ -33,7 +33,7 @@ const Project = () => {
                         <LazyLoadImage
                           src={projects.img}
                           alt={projects.title}
-                          className={projects.class}
+                          className={projects.class} 
                         />
                       </div>
                       <div className='flex-auto ml-3 justify-evenly py-2'>
@@ -105,7 +105,7 @@ const Project = () => {
                               <span>{projects.code}</span>
                             </button>
                           </div>
-                          <a href={projects.website}>
+                          <a href={projects.website} target="_blank" rel="noopener noreferrer">
                             <button
                               className='mb-2 md:mb-0 bg-gray-900 px-5 py-2 shadow-sm tracking-wider text-white rounded-full hover:bg-gray-800'
                               type='button'
