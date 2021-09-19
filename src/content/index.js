@@ -483,6 +483,16 @@ export default {
         website: "https://coder-isiahjones.github.io/Dice-Game",
         class: 'w-full object-scale-down lg:object-cover lg:h-48 rounded-2xl',
       },
+      {
+        img: process.env.PUBLIC_URL + "/assets/Projects/farmfresh.png",
+        job: "Frontend Challenge",
+        title: "Farm Fresh",
+        location: "Fort Wayne, IN",
+        date: "09/11/2021",
+        code: "HTML, CSS, Bootstrap, Javascript",
+        website: "https://farmfresh-demo.vercel.app",
+        class: 'w-full object-scale-down lg:object-cover lg:h-48 rounded-2xl',
+      },
     ],
   },
 }
