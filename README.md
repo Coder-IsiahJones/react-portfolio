@@ -5,9 +5,7 @@ Welcome to my React portfolio! This project showcases my skills, projects, and e
 
 ```
 ## Screenshots
-![Screenshot 1](Screenshot_1.png)
-![Screenshot 2](Screenshot_2.png)
-![Screenshot 3](Screenshot_3.png)
+![Screenshot 2](portfolio.png)
 ```
 
 ## Getting Started
